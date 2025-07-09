@@ -1,0 +1,137 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+body {
+  margin: 0;
+  font-size: 14px;
+  padding-top: 80px;
+  color: #eae0d5ff;
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* Navbar */
+#header-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #0a0908;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Arial, Helvetica, sans-serif; 
+  color: #eae0d5ff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #5e503fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #eae0d5ff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #22333bff;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #eae0d5ff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.section { 
+  position: relative;
+  border: 2px solid #eae0d5ff;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.section p {
+  margin-top: 40px; 
+  padding: 0 10px;
+}
+.section-title span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #5e503fff;
+  color: #fff;
+  opacity: 0.8;
+  padding: 5px 0; 
+}
+
+.section:hover {
+  box-shadow: 0 1px 5px 1px #22333bff;
+}
+
+#sectiomain-categories-id + div {
+  margin-bottom: 50px;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {}
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
